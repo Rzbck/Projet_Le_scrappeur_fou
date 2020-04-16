@@ -4,8 +4,9 @@ require 'rest-client'
 
 def target(page,name,xpath)
     name = page.xpath(xpath).collect(&:text)
-    name
+    p name
 end
+
 def zip_and_store(a,b)
     zip_tags = a.zip(b)
     l = []
