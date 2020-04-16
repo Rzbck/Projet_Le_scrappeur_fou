@@ -30,7 +30,7 @@ departement_number_name.each do |i|
     all_departement_url_list<< homepage_url+number.delete(' ')+"/"
 end
 
-all_city = []
+
 url_of_all_city = []
 all_email = []
 all_departement_url_list.each do |i|
